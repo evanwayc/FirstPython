@@ -34,5 +34,9 @@ print(str)
 print("==================")
 # 字符串中的變量
 str_a = "Evan"
-str_all = f"Hello, {str_a}"
+str_all = f"Hello, {str_a}!"
 print(str_all)
+print(len(str_a))
+print(str_a[0])
+print(str_a[-1])
+print(str_a[0:3:2])
