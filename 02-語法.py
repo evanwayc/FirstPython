@@ -10,10 +10,10 @@ if a == 1 and b == 2 \
 # test
 
 # 字符串
-str = \
-"""\
+str = """\
 第一行
 第二行
 第三行
 """
+
 print(str)
