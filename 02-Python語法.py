@@ -17,3 +17,6 @@ str = """\
 """
 
 print(str)
+
+num = eval(input("請輸入一個數值："))
+print(num)
