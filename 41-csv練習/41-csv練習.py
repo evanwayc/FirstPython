@@ -1,16 +1,11 @@
-import csv
 from command.command import *
 from process.process import *
+from process_csv.csv import *
+
 
 def main():
-    f = open(".\\41-csv練習\\41.csv", "r", encoding="utf-8-sig")
-    csv_reader = csv.DictReader(f)
-    result = {}
-    for row in csv_reader:
-        print(row)
-        name = row.get("姓名")
-        result[name] = row
-    print(result)
+    path = ".\\41-csv練習\\41.csv"
+    result = open_csv(path)
 
     while True:
         command = get_user_command()
